@@ -4,16 +4,13 @@ import './logo.css';
 
 const Logo = ({repeat}) => { 
     
-    if (repeat > 6){
-        repeat = 6;
-    }
     let elements =[];
-    for (let index = 0; index < repeat; index++) {
+    for (let index = 0; index < repeat && index < 6; index++) {
         elements.push(<img key={index} src={logo} className="App-logo" alt="logo" />)        
     }
 
     return(
-        <div>
+        <div className="App-logo-container">
             {elements}
         </div>
     )    

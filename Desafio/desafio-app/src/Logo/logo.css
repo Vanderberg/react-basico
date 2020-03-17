@@ -1,5 +1,9 @@
+.App-logo-container{
+  display: flex;
+}
+
 .App-logo {
-    height: 40vmin;
+    height: 20vmin;
     pointer-events: none;
   }
   
@@ -7,9 +11,9 @@
     .App-logo {
       animation: App-logo-spin infinite 4s linear;
     }
-    .App-logo:nth-child(odd) {
+    .App-logo:nth-child(even) {
       animation-direction: reverse;
-      animation-duration: 2s;
+      animation-duration: 4s;
     }    
   }
   

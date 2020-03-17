@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Header>          
-          <Logo repeat={3}/>
+          <Logo repeat={6}/>
           <Text/>
           <Links/>  
       </Header>  
