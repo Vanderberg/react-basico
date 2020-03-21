@@ -3,28 +3,9 @@
 }
 
 .App-logo {
-    height: 30vmin;
+    height: 20vmin;
     pointer-events: none;
   }
-
-.App-logo-buttons{
-  
-  grid-auto-flow: column;
-  column-gap: 20px;
-}
-
-.App-logo-buttons > button{
-  margin-left: 10px;
-  padding: 7px 20px;
-  font-weight: 700;
-  border-radius: 10px;
-  cursor: pointer;
-  outline: none;
-}
-
-.App-logo-buttons > button:hover{
-  text-decoration: underline;
-}
 
 @media (prefers-reduced-motion: no-preference) {
     .App-logo {
@@ -32,7 +13,6 @@
     }
     .App-logo:nth-child(even) {
       animation-direction: reverse;
-      animation-duration: 4s;
     }    
   }
   
