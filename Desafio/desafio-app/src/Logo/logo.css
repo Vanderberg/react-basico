@@ -3,11 +3,12 @@
 }
 
 .App-logo {
-    height: 20vmin;
+    height: 30vmin;
     pointer-events: none;
   }
 
 .App-logo-buttons{
+  
   grid-auto-flow: column;
   column-gap: 20px;
 }
