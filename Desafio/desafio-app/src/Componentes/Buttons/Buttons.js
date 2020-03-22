@@ -1,4 +1,6 @@
 import React, {useState} from 'react';
+import { Button } from '@bayon/commons';
+import { Typography } from '@bayon/commons';
 
 //Style
 import './Buttons.css';
@@ -20,12 +22,22 @@ const Buttons = ({repeat, setRepeat}) => {
     return(
     <>
         <div className="App-logo-buttons">
-               <button disabled={repeat === 6} onClick={handleClickPlus}>Logo + ({countAdd})</button>
-           <button disabled={repeat === 1} onClick={handleClickMinus}>Logo - ({countRem})</button>             
+            <Button ria-label="Button" size="medium" variant="primary" disabled={repeat === 6} onClick={handleClickPlus}>Logo + ({countAdd})</Button>
+           <Button ria-label="Button" size="medium" variant="default" disabled={repeat === 1} onClick={handleClickMinus}>Logo - ({countRem})</Button>             
         </div>
         <div>
-            <p><b>Logo +</b> button was clicked {countAdd} times</p>
-            <p><b>Logo -</b> button was clicked {countRem} times</p>
+        <Typography
+            lineHeight={2}
+            size={16}
+        >
+            <b>Logo +</b> button was clicked {countAdd} times
+        </Typography>
+        <Typography
+            lineHeight={2}
+            size={16}
+        >
+            <b>Logo -</b> button was clicked {countRem} times
+        </Typography>
         </div>
     </>    
     )    

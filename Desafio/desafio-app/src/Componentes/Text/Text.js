@@ -1,9 +1,13 @@
 import React from 'react';
+import { Typography } from '@bayon/commons';
 
 const Text = () => (
-    <p>
+    <Typography
+        lineHeight={3}
+        size={20}
+    >
         Edit <code>src/App.js</code> and save to reload.
-    </p>
+    </Typography>
 );
 
 export default Text;

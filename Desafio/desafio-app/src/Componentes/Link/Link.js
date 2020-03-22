@@ -1,15 +1,15 @@
 import React from 'react';
+import { Button } from '@bayon/commons';
 import './Link.css';
 
 const Links = () => (
-    <a
-    className="App-link"
-    href="https://reactjs.org"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    Learn React
-  </a>
+    <Button
+      variant="subtle"
+      href="https://reactjs.org"
+      icon="Star"
+    >  
+      Learn React
+    </Button>
 );
 
 export default Links;
