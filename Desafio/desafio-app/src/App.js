@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
 import './App.css';
-import Logo from './Logo/Logo';
-import Buttons from './Logo/Buttons';
-import Text from './Text/Text';
-import Links from './Link/Link';
-import Header from './Header/Header'
+import Logo from './Componentes/Logo/Logo';
+import Buttons from './Componentes/Buttons/Buttons';
+import Text from './Componentes/Text/Text';
+import Links from './Componentes/Link/Link';
+import Header from './Componentes/Header/Header'
 
 
 function App() {

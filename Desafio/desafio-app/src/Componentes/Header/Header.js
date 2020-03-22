@@ -4,7 +4,7 @@ import './Header.css';
 
 const Header = (props) => (
     <header className="App-header">
-       <div>{props.children}</div>
+       {props.children}
     </header>
 );
 
